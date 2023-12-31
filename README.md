@@ -9,3 +9,8 @@ Technical Specification
 -Html, Bootstrap Css
 
 
+Collaborators:
+Solas, Clyde
+Tindugan, Jayson
+Camingao, Jan Rian
+Maquerme, Faith
