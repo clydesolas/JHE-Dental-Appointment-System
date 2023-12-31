@@ -10,7 +10,7 @@ Technical Specification
 
 
 Collaborators:
-Solas, Clyde
-Tindugan, Jayson
-Camingao, Jan Rian
-Maquerme, Faith
+-Solas, Clyde
+-Tindugan, Jayson
+-Camingao, Jan Rian
+-Maquerme, Faith
