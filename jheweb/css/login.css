@@ -1,0 +1,80 @@
+body {
+  min-height: 100vh;
+  position: relative;
+}
+body::before {
+  content: "";
+  position: fixed;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.83)), url("../images/aboutus.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  min-height: var(--original-viewport-height);
+  left: 0;
+  top: 0;
+  will-change: transform;
+  z-index: -1;
+}
+.loginhere:hover{
+  color: black!important;
+}
+.loginhere{
+  color: #309A98 !important;
+}
+/* logo img */
+.small_device_img{
+    width: 100px;
+    height: 100px;
+    visibility: hidden;
+    margin-top: -5em;
+}
+p.logo_w3l_agile_caption {
+        text-transform: uppercase;
+        letter-spacing: 6.7px;
+        font-size: 11px;
+        color: rgb(210, 147, 144);
+        text-shadow: 0px 1px 3px #454a47;
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+        
+    }
+.large_device_img{
+    width: 100px;
+    height: 100px;
+}
+@media (max-width: 991.98px){
+    .small_device_img{
+    width: 90px;
+    height: 90px;
+    visibility: visible;
+    margin:auto;
+    }
+    .large_device_img{
+        display: none;
+    }
+}
+@media (max-width: 767.98px){
+    .small_device_img{
+    width: 80px;
+    height: 80px;
+    visibility: visible;
+    margin:auto;
+    }
+    .large_device_img{
+        display: none;
+    }
+}
+@media (max-width: 575.98px){
+    .small_device_img{
+    width: 70px;
+    height: 70px;
+    visibility: visible;
+    margin:auto;
+    }
+    .large_device_img{
+        display: none;
+    }
+    
+}
+/* /logo img */

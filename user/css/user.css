@@ -1,0 +1,140 @@
+body {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+/* appointment form start*/
+p.logo_w3l_agile_caption {
+    text-transform: uppercase;
+    letter-spacing: 6.7px;
+    font-size: 11px;
+    color: rgb(210, 147, 144);
+    text-shadow: 0px 1px 3px #454a47;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    }
+    @media (max-width: 575.98px) {
+        .select{
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        }
+        .date{
+        width: 300px;
+        }
+        .table_guide{
+        margin:auto;
+        width: 90%;
+        }
+    }
+        /* button (set appointment) start */
+    .button{
+        display: flex;
+        justify-content: end;
+        margin-right: 5.7em;
+        }
+    @media (max-width: 1399.98px) {
+        .button{
+        margin-right: 5em;
+        }
+    }
+    @media (max-width: 1199.98px) {
+        .button{
+        margin-right: 4em;
+        }
+    }
+    @media (max-width: 991.98px) {
+        .button{
+        margin-right: 3.5em;
+        }
+    }
+    @media (max-width: 768px) {
+        .button{
+        margin-right: 5em;
+        }
+    }
+    @media (max-width: 575.98px) {
+        .button{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        }
+    }
+        /* button (set appointment) end*/
+    /* appointment form end */
+    /* announcement start */
+    .announce_title{
+        font-size:24px;
+    }
+    @media(max-width:991.98px){
+        .announce_title{
+        text-align: start;
+        font-size:17px;
+        font-weight:bold;
+        }
+        .announce_text{
+        font-size:15px;
+        margin-top:5%;
+        }
+    }
+    /* announcement end */
+    /* table guidelines start */
+    .table_guide{
+        display: inline-block;
+        height: 17em;
+        width: 100%;
+        overflow-y: auto;
+        overflow-x: hidden;
+        font-size: small;
+    }
+    @media(max-width: 1199.98px){
+        .table_guide{
+            height: 16em;
+        }
+        .left_text{
+            font-size: 13.5px;
+        }
+    }
+    @media(max-width: 991.98px){
+        .table_guide{
+            height: 16em;
+        }
+        .left_text{
+            font-size: 12.6px;
+        }
+    }
+    @media(max-width: 767.98px){
+        .table_guide{
+            height: 15em;
+        }
+    }
+    @media(max-width: 575.98px){
+        .left_text{
+            font-size: 15px;
+        }
+    }
+    /* table guidelines end */
+    /* table services start */
+    .table_services{
+        display: inline-block;
+       
+        width: 100%;
+        overflow-y: auto;
+        overflow-x: hidden;
+        font-size: small;
+    }
+    /* table services end */
+    .alert{
+        border-radius: 0 !important;
+    }
+    /* navbar btn/link hover start */
+    .nav-link {
+    border-bottom: 5px solid transparent;
+    }
+    
+    .nav-link:hover {
+    border-bottom: 5px solid #309A98;
+    }
+    .nav-link:active {
+    border-bottom: 5px solid #309A98;
+    }
+    /* navbar btn/link hover end */
+
